@@ -1,0 +1,13 @@
+import random 
+ 
+ 
+bjk= random.randint( 2 , 6)
+print( bjk)
+fenerbahçe = random.randint (2 ,6)
+print( fenerbahçe)
+if bjk> fenerbahçe:
+ print("bjk kazandı")
+elif( fenerbahçe> bjk):
+ print(" fenerbahçe kazandı")
+else:
+  print("berabere")
